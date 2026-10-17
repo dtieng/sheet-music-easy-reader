@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Sheet Music Easy Reader — Privacy &amp; Support</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --background: #f5f5f7;
+            --card: #ffffff;
+            --text: #1d1d1f;
+            --secondary: #5f6368;
+            --accent: #087bdf;
+            --border: #d9d9de;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #101012;
+                --card: #1c1c1e;
+                --text: #f5f5f7;
+                --secondary: #b0b0b5;
+                --accent: #64b5ff;
+                --border: #3a3a3c;
+            }
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        main {
+            width: min(760px, calc(100% - 32px));
+            margin: 48px auto;
+        }
+
+        header, section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: clamp(24px, 5vw, 42px);
+            margin-bottom: 20px;
+        }
+
+        h1, h2 { line-height: 1.2; }
+        h1 { margin: 0 0 10px; font-size: clamp(2rem, 7vw, 3.2rem); }
+        h2 { margin: 0 0 14px; font-size: 1.45rem; }
+        p:last-child, ul:last-child { margin-bottom: 0; }
+        .subtitle, .updated { color: var(--secondary); }
+        .updated { font-size: 0.95rem; }
+        a { color: var(--accent); }
+        li + li { margin-top: 8px; }
+
+        .notice {
+            border-left: 4px solid var(--accent);
+            padding-left: 16px;
+        }
+
+        footer {
+            color: var(--secondary);
+            font-size: 0.9rem;
+            padding: 8px 4px 32px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Sheet Music Easy Reader</h1>
+            <p class="subtitle">Privacy Policy &amp; Support</p>
+            <p class="updated">Effective date: October 16, 2026</p>
+        </header>
+
+        <section>
+            <h2>Support</h2>
+            <p>If you need help, want to report a problem, or have a privacy question, contact:</p>
+            <!-- Replace the placeholder below with your real support email before publishing. -->
+            <p class="notice"><strong>Email:</strong> <a href="mailto:dt-app-support@proton.me">dt-app-support@proton.me</a></p>
+            <p>When reporting an issue, please include your device model, iOS or iPadOS version, app version, and a short description of what happened. Please do not send private or copyrighted PDF files unless they are necessary to investigate the issue and you have permission to share them.</p>
+        </section>
+
+        <section>
+            <h2>Privacy at a glance</h2>
+            <p>Sheet Music Easy Reader does not require an account and does not include advertising, analytics, or cross-app tracking. The app does not collect or sell personal information.</p>
+        </section>
+
+        <section>
+            <h2>Files and annotations</h2>
+            <p>The app accesses PDF files only when you choose them through Apple’s document picker. It uses those files to display sheet music and, when requested, save your annotations.</p>
+            <p>Your PDFs and annotations remain in the storage location you selected. This may be local storage on your device, iCloud Drive, or another file provider. If you use iCloud Drive or another provider, that provider processes and synchronizes the files under its own terms and privacy policy. Sheet Music Easy Reader does not operate a separate server that receives your documents.</p>
+        </section>
+
+        <section>
+            <h2>Information stored on your device</h2>
+            <p>The app stores preferences locally, such as onboarding status, autosave and screen-awake settings, annotation appearance choices, and the last viewed page for a document. These settings support app functionality and are not used for advertising or profiling.</p>
+        </section>
+
+        <section>
+            <h2>Data sharing and retention</h2>
+            <p>The app does not sell personal information or share it with advertisers or data brokers. Documents and app preferences remain until you modify or delete the relevant files, remove the app, or clear its data through your device or storage provider.</p>
+        </section>
+
+        <section>
+            <h2>Children’s privacy</h2>
+            <p>The app does not knowingly collect personal information from children or any other users. Because no account or personal-data collection is required, the app does not ask users to provide their age.</p>
+        </section>
+
+        <section>
+            <h2>Changes to this policy</h2>
+            <p>This policy may be updated if the app’s features or data practices change. The effective date at the top of this page will be revised when an update is published.</p>
+        </section>
+
+        <footer>
+            &copy; 2026 Sheet Music Easy Reader. All rights reserved.
+        </footer>
+    </main>
+</body>
+</html>
